@@ -7,28 +7,28 @@ using System.Threading.Tasks;
 
 namespace iQuest.GrandCircus.Animals
 {
-    abstract class AnimalBase : IAnimal
+    public abstract class AnimalBase : IAnimal
     {
         [Required(ErrorMessage = "A specie must be specified")]
-        private readonly string Specie;
+        private readonly string specie;
 
         public string GetSpecie()
         {
-            return Specie;
+            return specie;
         }
         [Required(ErrorMessage = "Name must be specified")]
-        public readonly string Name;
+        public readonly string name;
         public string GetName()
         {
-            return Name;
+            return name;
         }
 
         public abstract string MakeNoise();
 
         protected AnimalBase(string name, string specie)
         {
-            Name = name;
-            Specie = specie;
+            this.name = name;
+            this.specie = specie;
         }
     }
 }
