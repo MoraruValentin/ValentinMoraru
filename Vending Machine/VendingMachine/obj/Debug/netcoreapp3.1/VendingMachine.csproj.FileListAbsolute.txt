@@ -1,0 +1,13 @@
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\bin\Debug\netcoreapp3.1\iQuest.VendingMachine.exe
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\bin\Debug\netcoreapp3.1\iQuest.VendingMachine.deps.json
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\bin\Debug\netcoreapp3.1\iQuest.VendingMachine.runtimeconfig.json
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\bin\Debug\netcoreapp3.1\iQuest.VendingMachine.runtimeconfig.dev.json
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\bin\Debug\netcoreapp3.1\iQuest.VendingMachine.dll
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\bin\Debug\netcoreapp3.1\iQuest.VendingMachine.pdb
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.csprojAssemblyReference.cache
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.AssemblyInfoInputs.cache
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.AssemblyInfo.cs
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.csproj.CoreCompileInputs.cache
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\obj\Debug\netcoreapp3.1\iQuest.VendingMachine.dll
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\obj\Debug\netcoreapp3.1\iQuest.VendingMachine.pdb
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\Vending Machine\VendingMachine\obj\Debug\netcoreapp3.1\VendingMachine.genruntimeconfig.cache
