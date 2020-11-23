@@ -1,0 +1,16 @@
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\bin\Debug\net5.0\iQuest.GrandCircus.exe
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\bin\Debug\net5.0\iQuest.GrandCircus.deps.json
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\bin\Debug\net5.0\iQuest.GrandCircus.runtimeconfig.json
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\bin\Debug\net5.0\iQuest.GrandCircus.runtimeconfig.dev.json
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\bin\Debug\net5.0\iQuest.GrandCircus.dll
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\bin\Debug\net5.0\ref\iQuest.GrandCircus.dll
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\bin\Debug\net5.0\iQuest.GrandCircus.pdb
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\GrandCircus.csprojAssemblyReference.cache
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\GrandCircus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\GrandCircus.AssemblyInfoInputs.cache
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\GrandCircus.AssemblyInfo.cs
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\GrandCircus.csproj.CoreCompileInputs.cache
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\iQuest.GrandCircus.dll
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\ref\iQuest.GrandCircus.dll
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\iQuest.GrandCircus.pdb
+C:\Users\Valentin\Source\Repos\MoraruValentin\ValentinMoraru\GrandCircus\obj\Debug\net5.0\GrandCircus.genruntimeconfig.cache
