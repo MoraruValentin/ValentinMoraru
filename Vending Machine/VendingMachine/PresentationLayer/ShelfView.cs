@@ -1,20 +1,29 @@
 ﻿using iQuest.VendingMachine.Products;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace iQuest.VendingMachine.PresentationLayer
 {
-    class ShelfView
+    internal class ShelfView
     {
         public void DisplayProducts(IEnumerable<Product> products)
         {
-            Console.WriteLine("Items avalaible in the vending machine...");
-            foreach (var item in products)
+            if (!products.Any())
             {
-                if (item.Quantity > 0)
+                Console.WriteLine("no products left in the vending machine");
+            }
+            else
+            {
+                Console.WriteLine("Items avalaible in the vending machine...");
+
+                foreach (var item in products)
                 {
-                    Console.WriteLine(item.Name + " " + item.Price );
+                    if (item.Quantity > 0)
+                    {
+                        Console.WriteLine(item.Name + " " + item.Price);
+                    }
                 }
             }
         }

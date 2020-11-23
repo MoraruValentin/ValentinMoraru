@@ -15,13 +15,13 @@ namespace iQuest.VendingMachine
         private bool turnOffWasRequested;
 
         public bool UserIsLoggedIn { get; set; }
+        public bool AdminIsLoggedIn { get; set; }
 
-        public VendingMachineApplication(List<IUseCase> useCases, MainDisplay mainDisplay)
+        public VendingMachineApplication(List<IUseCase> useCases, MainDisplay mainDisplay, ProductRepo products)
         {
             this.useCases = useCases ?? throw new ArgumentNullException(nameof(useCases));
             this.mainDisplay = mainDisplay ?? throw new ArgumentNullException(nameof(mainDisplay));
-            this.products = new ProductRepo();
-           
+            this.products = products ?? throw new ArgumentNullException(nameof(products));
         }
 
         public void Run()

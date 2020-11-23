@@ -28,7 +28,7 @@ namespace iQuest.VendingMachine.UseCases
             if (password == "123")
                 application.UserIsLoggedIn = true;
             else
-                throw new Exception("Invalid password");
+            throw new Exception("Invalid password");
         }
     }
 }

@@ -10,7 +10,7 @@ namespace iQuest.VendingMachine.UseCases
     {
         private readonly VendingMachineApplication application;
 
-        private readonly ShelfView shelf = new ShelfView();
+        private readonly ShelfView shelf;
 
         public string Name => "view products";
 
@@ -18,9 +18,10 @@ namespace iQuest.VendingMachine.UseCases
 
         public bool CanExecute => application.UserIsLoggedIn;
 
-        public ViewProductsUseCase(VendingMachineApplication application)
+        public ViewProductsUseCase(VendingMachineApplication application, ShelfView shelf)
         {
             this.application = application;
+            this.shelf = shelf;
         }
 
         public void Execute()
