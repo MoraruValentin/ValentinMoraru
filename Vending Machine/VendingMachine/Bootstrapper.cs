@@ -20,6 +20,11 @@ namespace iQuest.VendingMachine
             ProductRepo products = new ProductRepo();
             ShelfView shelf = new ShelfView();
 
+            products.AddProduct(new Product(1, "Baseball Bat", 120, 2, 20));
+            products.AddProduct(new Product(1, "Lion Bar", 25, 0, 2));
+            products.AddProduct(new Product(1, "Mug", 25, 10, 2));
+            products.AddProduct(new Product(1, "Snickers Bar", 50, 50, 1));
+
             VendingMachineApplication vendingMachineApplication = new VendingMachineApplication(useCases, mainDisplay, products);
 
             useCases.AddRange(new IUseCase[]
@@ -27,7 +32,7 @@ namespace iQuest.VendingMachine
                 new LoginUseCase(vendingMachineApplication, mainDisplay),
                 new LogoutUseCase(vendingMachineApplication),
                 new TurnOffUseCase(vendingMachineApplication),
-                new ViewProductsUseCase(vendingMachineApplication,shelf)
+                new LookUseCase(vendingMachineApplication,shelf,products)
             });
 
             return vendingMachineApplication;

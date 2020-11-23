@@ -6,11 +6,13 @@ using System.Text;
 
 namespace iQuest.VendingMachine.UseCases
 {
-    internal class ViewProductsUseCase : IUseCase
+    internal class LookUseCase : IUseCase
     {
         private readonly VendingMachineApplication application;
 
         private readonly ShelfView shelf;
+
+        private readonly ProductRepo products;
 
         public string Name => "view products";
 
@@ -18,15 +20,16 @@ namespace iQuest.VendingMachine.UseCases
 
         public bool CanExecute => true;
 
-        public ViewProductsUseCase(VendingMachineApplication application, ShelfView shelf)
+        public LookUseCase(VendingMachineApplication application, ShelfView shelf, ProductRepo products)
         {
             this.application = application;
             this.shelf = shelf;
+            this.products = products;
         }
 
         public void Execute()
         {
-            shelf.DisplayProducts(application.products.GetProducts());
+            shelf.DisplayProducts(products.GetProducts());
         }
     }
 }
