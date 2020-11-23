@@ -16,7 +16,7 @@ namespace iQuest.VendingMachine.UseCases
 
         public string Description => "Press this to view all products";
 
-        public bool CanExecute => application.UserIsLoggedIn;
+        public bool CanExecute => true;
 
         public ViewProductsUseCase(VendingMachineApplication application, ShelfView shelf)
         {
